@@ -2,10 +2,10 @@ import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import KeywordSearch from './KeywordSearch';
 import Report from './Report';
-import DataAnalysis from './Data_analysis';
-import IssueSummary from './Issue_summary';
-import OpinionCheck from './Opinion_check';
-import OpinionFind from './Opinion_find';
+import DataAnalysis from './DataAnalysis';
+import IssueSummary from './IssueSummary';
+import OpinionCheck from './OpinionCheck';
+import OpinionFind from './OpinionFind';
 import './App.css';
 
 function App() {
@@ -14,10 +14,10 @@ function App() {
       <Routes>
         <Route path="/" element={<KeywordSearch />} />
         <Route path="/report" element={<Report />} />
-        <Route path="/Data_analysis" element={<DataAnalysis />} />
-        <Route path="/Issue_summary" element={<IssueSummary />} />
-        <Route path="/Opinion_check" element={<OpinionCheck />} />
-        <Route path="/Opinion_finding" element={<OpinionFind />} />
+        <Route path="/DataAnalysis" element={<DataAnalysis />} />
+        <Route path="/IssueSummary" element={<IssueSummary />} />
+        <Route path="/OpinionCheck" element={<OpinionCheck />} />
+        <Route path="/OpinionFind" element={<OpinionFind />} />
       </Routes>
     </Router>
   );

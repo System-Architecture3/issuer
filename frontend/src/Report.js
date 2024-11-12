@@ -47,10 +47,10 @@ function Report() {
 
         {/* Navigation Links */}
         <nav className="nav-links">
-          <Link to="/Data_analysis">데이터 분석</Link> |
-          <Link to="/Issue_summary">이슈 정리</Link> |
-          <Link to="/Opinion_check">여론 확인</Link> |
-          <Link to="/Opinion_finding">의견 찾기</Link>
+          <Link to="/DataAnalysis">데이터 분석</Link> |
+          <Link to="/IssueSummary">이슈 정리</Link> |
+          <Link to="/OpinionCheck">여론 확인</Link> |
+          <Link to="/OpinionFind">의견 찾기</Link>
         </nav>
 
         {/* 검색량 분석 섹션 */}
